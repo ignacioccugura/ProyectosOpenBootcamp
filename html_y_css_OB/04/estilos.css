@@ -1,0 +1,37 @@
+h1{
+    color: brown;
+}
+
+/*
+probando colores
+*/
+
+p{
+    color: blue;
+    font-size: 55pt;
+}
+
+#noticia1 {
+    color: rgb(41, 102, 41);
+}
+
+#noticia2{
+    color: violet;
+}
+
+.encabezado_noticias{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+/*
+se utiliza como un default
+*/
+* {
+
+}
+
+.autor,.fecha,.libro,h1 {
+    text-decoration: underline;
+}
