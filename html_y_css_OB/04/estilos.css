@@ -35,3 +35,18 @@ se utiliza como un default
 .autor,.fecha,.libro,h1 {
     text-decoration: underline;
 }
+
+.fondo{
+    background-color: aqua;
+}
+
+.pag{
+    background-image: url("https://github.com/ignacioccugura/Wallpapers/blob/main/WP_001.jpg?raw=true");
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 1px;
+    border-top: none;
+}
