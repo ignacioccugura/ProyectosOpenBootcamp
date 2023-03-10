@@ -1,0 +1,36 @@
+div {
+    border: 1px solid grey;
+    padding: 1px;
+    margin: 5px;
+}
+/* posicionamiento relativa*/
+.relative{
+    position: relative;
+    left: 80px;
+}
+
+.fixed{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.absolute{
+    position: absolute;
+    top: 0px;
+    background-color: green;
+
+}
+
+.relative.contenedor{
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+}
+
+.sticky{
+    background-color: palevioletred;
+    position: sticky;
+    top: 0px;
+    z-index: 2px;
+}
