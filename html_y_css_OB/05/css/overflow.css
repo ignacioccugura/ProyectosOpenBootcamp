@@ -1,0 +1,8 @@
+.contenedor{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    overflow: auto;
+    /* hay muchas opciones , como overflow: scroll, hidden, visible, etc */
+}

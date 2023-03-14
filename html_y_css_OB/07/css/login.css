@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.botones{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn{
+    background-color: #5195EE;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 40px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.google-btn span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 35px;
+    height: 35px;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solic red;
+}
+
+.separador span{
+    color: #8b8b8b;
+}
+
+.inputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label input{
+    width: 100%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+.inputs label input{
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+label span{
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px violet;
+}
+
