@@ -1,0 +1,32 @@
+.hover{
+    width: 300px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+.hover:hover{
+    background-color: green;
+}
+
+.listado{
+    height: 100px;
+    background-color: aqua;
+}
+
+.listado p:first-child{
+    color: yellow;
+}
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:active{
+    color: red;
+}
