@@ -1,0 +1,17 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    transition: all 1s;
+}
+
+.padre:hover .hijo{
+    transform: translateX(100%);
+    background-color: violet;
+}
