@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* Otra forma de definirlo */
+    /* grid-template-columns: repeat(3,auto); */
+    
+    gap: 0.5rem;
+}
+
+.item{
+    background-color: aquamarine;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid 1px blue;
+}
